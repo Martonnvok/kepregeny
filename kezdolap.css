@@ -1,0 +1,66 @@
+
+img{
+    width: 500px;
+    height: 500px;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+header{
+    background-color: brown;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-weight: bold;
+}
+h1{
+    padding-bottom: 20px;
+}
+.eleje{
+    width: 53.5%;
+}
+#kozep{
+    width: 53.5%;
+    height: 70.5%;
+}
+body{
+    background-color: rgb(13, 13, 13);
+    color: cornsilk;
+
+}
+main{
+    background-color: black;
+    margin: auto;
+    width: 75%;
+    font-family: serif;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+nav{
+    padding: 5px;
+    background-color: brown;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: cornsilk;
+    font-size: 20px;
+    font-family: serif;
+    
+}
+a:hover{
+    color: red;
+}
+article{
+    text-align: center;
+}
+footer{
+    background-color: brown;
+    text-align: center;
+}
