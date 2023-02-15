@@ -16,6 +16,10 @@ header{
 .eleje{
     width: 53.5%;
 }
+#kozep{
+    width: 53.5%;
+    height: 70.5%;
+}
 body{
     background-color: black;
     color: white;
