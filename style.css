@@ -14,13 +14,8 @@ header{
 h1{
     padding-bottom: 20px;
 }
-.eleje{
-    width: 53.5%;
-}
-#kozep{
-    width: 53.5%;
-    height: 70.5%;
-}
+
+
 body{
     background-color: rgb(13, 13, 13);
     color: cornsilk;
