@@ -4,10 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="kerdoiv.css">
     <title>kepregeny</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
 </head>
 <body>
     <main>
@@ -21,17 +20,57 @@
                 <li><a href="kerdoiv.html">Kérdőív</a></li>
             </ul>
         </nav>
-        <div class="container mt-3">
-            <h2>Button Outline</h2>
-            <button type="button" class="btn btn-outline-primary">Primary</button>
-            <button type="button" class="btn btn-outline-secondary">Secondary</button>
-            <button type="button" class="btn btn-outline-success">Success</button>
-            <button type="button" class="btn btn-outline-info">Info</button>
-            <button type="button" class="btn btn-outline-warning">Warning</button>
-            <button type="button" class="btn btn-outline-danger">Danger</button>
-            <button type="button" class="btn btn-outline-dark">Dark</button>
-            <button type="button" class="btn btn-outline-light text-dark">Light</button>
-          </div>
+          <article>
+            <fieldset>
+                <legend>Kérlek szánj időt a kérdőívünkre</legend>
+            <fieldset>
+                <legend>1. kérdés</legend>
+                <label for="robot">Tetszett-e a képregény??</label>
+                <br>
+                <label for="igen">Igen</label>
+                <input type="radio">
+                <br>
+                <label for="nem">Nem</label>
+                <input type="radio">
+                <br>
+                <label for="talan">Talán</label>
+                <input type="radio">
+
+            </fieldset>
+
+            <fieldset>
+                <legend>2. kérdés</legend>
+                <label for="robot">Ajánlanád-e másoknak?</label>
+                <br>
+                <label for="igen">Igen</label>
+                <input type="radio">
+                <br>
+                <label for="nem">Nem</label>
+                <input type="radio">
+                <br>
+                <label for="talan">Talán</label>
+                <input type="radio">
+
+            </fieldset>
+
+            <fieldset>
+                <legend>3. kérdés</legend>
+                <label for="robot">Mennyire látod kidolgozotnak?</label>
+                <br>
+                <label for="igen">Eléggé</label>
+                <input type="radio">
+                <br>
+                <label for="nem">Kb</label>
+                <input type="radio">
+                <br>
+                <label for="talan">Nem annyira</label>
+                <input type="radio">
+
+            </fieldset>
+            <div id="button">
+            <button type="submit" class="btn btn-primary">Küldés</button>
+            </div>
+        </article>
     </main> 
 </body>
 </html>
