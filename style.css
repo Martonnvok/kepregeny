@@ -1,7 +1,6 @@
 
 img{
     width: 500px;
-    height: 500px;
     border: 2px solid white;
     border-radius: 8px;
 }
@@ -22,7 +21,7 @@ body{
 
 }
 main{
-    background-color: black;
+    background-color: gainsboro;
     margin: auto;
     width: 75%;
     font-family: serif;
@@ -54,9 +53,14 @@ section{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    margin: auto;
 }
 .elso{
     display: flex;
     align-self: flex-end;
+}
+
+article{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
