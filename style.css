@@ -71,4 +71,10 @@ article{
         flex-flow: row wrap;
         justify-content: center;
     }
+    img{
+        width: 98%;
+    }
+    main{
+        margin: auto;
+    }
 }
