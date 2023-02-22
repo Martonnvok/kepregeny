@@ -1,6 +1,6 @@
 
 img{
-    width: 500px;
+    width: 40%;
     border: 2px solid white;
     border-radius: 8px;
 }
@@ -63,4 +63,12 @@ article{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+    article{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
 }
