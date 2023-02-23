@@ -81,4 +81,12 @@ footer{
     main{
         margin: auto;
     }
+    #menu {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 30px;
+    }
+
 }
