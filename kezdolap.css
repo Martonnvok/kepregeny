@@ -64,3 +64,16 @@ footer{
     background-color: brown;
     text-align: center;
 }
+@media screen and (max-width: 600px) {
+    #menu {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 30px;
+    }
+    .eleje{
+        width: 400px;
+    }
+
+}
